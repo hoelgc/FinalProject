@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="nb" xml:lang="nb">
+<head>
+    <title>compressIT</title>
+    <link rel="stylesheet" type="text/css" href="css/styleMain.css">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7" maximum-scale=0.7, user-scalable="yes">
+    <meta charset="utf-8">
+</head>
+
+<body id="toppen">
+<!-- Navbar -->
+<div class="navbar">
+    <li><a href="#information" class="hover" alt="Info">PROBLEMSTILLING</a></li>
+    <li><a href="#product" class="hover" alt="Produkt">LØSNING</a></li>
+    <li><a href="#implementation" class="hover" alt="Gjennomføring">UNDERSØKELSE</a></li>
+    
+    <a href="kontakt_NO.html"><img src="media/Contact.png" class="contactPic"></a>
+    
+    <!-- Hyperlink to translated site -->
+    <a href="compressIT_EN.html"><img src="media/englishBtn.png" class="flagg" alt="Side oversatt til engelsk"></a>
+</div>
+
+<!-- Logo -->
+<img id="logo" src="media/logo.png" alt="logo">
+    
+    <!-- Bildekarussell -->
+    <div class="slideshow-container">
+        <!-- Full-width slides/quotes -->
+        <div class="mySlides"><img src="media/rsz_compress.png"></div>
+        <div class="mySlides"><img src="media/compress2.png"></div>
+        <div class="mySlides"><img src="media/compress3.png"></div>
+        <div class="mySlides"><img src="media/rsz_compress4.png"></div>
+
+        <!-- Next/prev buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- Dots/bullets/indicators -->
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+    </div>
+    
+ 
+<!-- Info -->
+<div class="background1" id="information">
+    <h2>Problemstilling</h2>
+    <div class="parent">
+        <div class="textboks">
+            <img class="bilder" src="media/strand.jpg" alt="Bilde av forsøplet øy" align="right">
+            <p>
+                Kun 9% av verdens plast gjenvinnes i dag <a href="https://www.independent.co.uk/life-style/plastic-bad-environment-why-ocean-pollution-how-much-single-use-facts-recycling-a8309311.html?fbclid=IwAR2Gi9AYnIEB0Tia_wXk0WqNl78113xwHvqERWFqBm5211_a0Gybgok6dAo"><em>(kilde)</em></a>.
+                Plast forsøpler byer, hav og vannkanaler. Det forårsaker helseproblemer for både mennesker og dyr, og er nå blitt en del av vår næringskjede. Plast har en nedbrytningstid på mer enn 400 år, men det vil aldri brytes helt ned.
+            </p>
+            <p>
+                Hva vil fremtiden bringe dersom vi ikke endrer retning? 
+            </p>         
+            <p class="links">
+                Foto: "Nordnorsk debatt" <a class="url" href="https://nordnorskdebatt.no/article/havet-gir-oss-alt-vi-trenger-mat?fbclid=IwAR2eR5IdAtwYBm0_T3aUbaolGPB21FCg8AmLrdDNlSA_cKN1QA2BE7oX-4s" target="_blank">(kilde)</a>.
+            </p>
+
+        </div>
+    </div>
+</div>
+    
+<!--Place for the meny to dropp down.-->
+<div id="product"><br></div>
+    
+<!--Solution-->
+<div class="background2">
+    <h2>Løsning</h2>
+    <div class="parent">
+        <div class="textboks">
+            <img class="bilder" src="media/pollution-mer.jpg" alt="Pollution image" align="right">
+            <p>
+                Vi vil gjerne bidra til FNs bærekraftige mål, som er å stoppe plasten som fyller havene 
+                <a href="http://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html" target = "_blank"><em>(kilde).</em></a>
+            </p>
+            <p> 
+                I Norge gjør vi en stor innsats med resirkulering av plastflasker. Hvorfor kan vi ikke gjøre det med all annen plast?
+                Vi har derfor utviklet ideen "compressIT" bestående av tre steg (trykk på stegene for mer info): 
+            </p> 
+    <!--MÅ FIKSES! Siden li er brukt i CSS får vi ikke disse listet under hverandre ved bruk av ol og li...-->
+            <strong>
+            <p>1. <a class="list" href="#compressor">Kompressor</a></p>
+            <p>2. <a class="list" href="#machine">Maskin</a></p>
+            <p>3. <a class="list" href="#app">Applikasjon</a></p>
+            </strong>
+            <p>Vi håper at denne løsningen vil motivere flere til å resirkulere.</p>
+            <p class="links">Foto: "Slate.fr"<a class="url" href="http://www.slate.fr/story/103031/pollution-marine-rectums-surfeurs?fbclid=IwAR0Pm0iqGHmpENr8m5lg6JvJu7DigsENw1mfCMWVg-GlHQybaAtUnwDz0Fo" target="_blank">(kilde)</a>
+            </p>   
+        </div>
+    </div>
+</div>
+
+<div id="compressor"><br></div>    
+    
+<!-- Produktbeskrivelse -->
+<div class="background1">
+    <h2>1. Kompressor</h2>
+    <div class="parent">
+       <div class="textboks">
+            <img src="media/animasjon.gif" alt="Animasjon" id="animasjon" align="right">
+            <p> 
+                <strong>“compressIT”</strong> er en søppelkasse, der lokket fungerer som en kompressor(se for deg en presskanne).
+                Plasten blir komprimert etterhver som det fylles opp og blir derfor ikke til sjenanse. 
+                Vi tror at dette vil bidra til å gjøre en kjedelig hverdagsoppgave til å bli morsom, effektiv og enkel å implementere (selv i travle og/eller små husholdninger).
+           </p> 
+           <p>
+             For at panteordningen skal være «attraktiv" vil søppelkassene komme i vanlig størrelse, slik som de eksisterende søppelkassene for resirkulering.</p>
+        </div>
+    </div>
+    
+    <div id="machine"><br></div>
+    
+    <!-- The Machine -->
+    <h2>2. Maskin</h2>
+    <div class="parent">
+        <div class="textboks">
+            <img src="media/Compressit_Machine_NO.png" align="right" id="machine_img"> 
+            <p>
+                Maskinen i butikken vil registrere mengden plast via en innebygd vekt.
+                Det vil også befinne seg en sensor i maskinen, som sørger for at det kun er plast den tar i mot. 
+                  
+            </p>
+            <p><strong>
+                Systemet vil gi deg to valg:
+                </strong></p>
+            <p>
+                <strong>1.</strong>
+                Uten telefon? Ikke noe problem!
+                Print strekkoden fra maskinen. Du kan enten benytte kuppongen til å kjøpe varer eller ta ut verdien i kassen.
+            </p>
+            <p><strong>2.</strong>
+                Skjermen på maskinen vil vise en QR kode. Ved å skanne denne får du informasjonen rett inn i appen. Les mer om dette i "Applikasjon" under.
+        </div>
+    </div>
+
+    <div id="app"><br></div>
+    
+    <!--The App-->
+    <h2>3. Applikasjon</h2>
+    <div class="parent">
+        <div class="textboks">
+            <img src="media/App_NO.png" alt="App design som viser progressbar." id="phone" align="right">
+
+            <p>Med "compressIT" appen kan du registrere hvor mye du har pantet(lignende Trumf og Coop medlemskap). Dette gjør du via QR koden du får oppgitt på pantemaskinen.</p>
+
+            <p>I appen kan du blant annet følge med på din progresjonsbar som viser hvor mye plast du har pantet og oppspart bonus. Du vil også kunne se hvor mye din panteandel har å si for miljøet.</p>
+        </div>
+    </div>
+</div>    
+
+     <!-- Tegneserie -->
+<div class="background2">
+    <div id="tegneserie">
+        <img src="media/Tegneserie_NO/Step1_FyllSoppelkassen.png" alt="Trinn 1: Fyll søppelkassen" class="tegning">
+        <img src="media/Tegneserie_NO/Step2_KomprimerPlasten.png" alt="Trinn 2: Komprimer plasten" class="tegning">
+        <img src="media/Tegneserie_NO/Step3_Resirkuler.png" alt="Trinn 3: Resirkuler" class="nestSiste">   
+        <img src="media/Tegneserie_NO/Step4_SkannKodeEllerTaUtPenger.png" alt="Trinn 4: Skann kode eller ta ut pengene i butikk." class="sisteBilde">
+    </div>  
+</div>
+    
+<!--Place for the meny to dropp down.-->
+<div id="implementation"><br></div>
+    
+<!-- Undersøkelse -->    
+<div class="background1">
+    <h2>Undersøkelse</h2>    
+    <div class="parent">
+        <div class="textboks">
+            <p>
+                Vi foretok en spørreundersøkelse blant venner og familie. Undersøkelsen ble sendt til 60 personer med forskjellig bakgrunn, alder og kjønn. Tilbakemeldingen fra flertallet lød følgende: det norske samfunnet behøver bedre håndtering av plastavfall. Dagens avfallssystem er ikke tilstrekkelig nok, noe som resulterer i at mye av plasten havner i restavfall.
+            </p>
+            <p>
+                Vi, folkene bak "compressIT" brenner for løsninger som kan bidra til å bedre miljøet vårt. Vi tror at panteordningen vår kommer til å fungere på lik linje med panting av flasker i dag.
+            </p>
+
+            <p>
+                <em>"Har du en balast, pant din plast! Ser du plast, ta det med og kast. Plast er ingen skipslast."</em>
+            </p>
+        </div>
+    </div>
+</div>
+    
+<div id="slogans">
+        <p><strong>Vår misjon</strong> er å redusere bruken av plast så mye som mulig.</p>
+        <p><strong>Vår visjon</strong> er at "compressIT" en dag skal være en del av alle norske hjem.</p>
+</div>
+    
+<!-- Footer -> beholder denne for gråfargen nederst på siden. -->
+<footer></footer>
+    
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        } 
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block"; 
+        dots[slideIndex-1].className += " active";
+        }    
+        var myIndex = 0; 
+        carousel();
+        function carousel() {
+            var x = document.getElementsByClassName("mySlides");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }    
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 3600);
+        }   
+</script>
+
+</body>
+
+</html>
